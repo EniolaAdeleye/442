@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Documents/MS_442/base64.h
+string
+-
+
+/home/pi/Documents/MS_442/msCam.cpp
+cstdio
+-
+cstdlib
+-
+raspicam/raspicam_cv.h
+-
+msCam.h
+/home/pi/Documents/MS_442/msCam.h
+vector
+-
+base64.h
+/home/pi/Documents/MS_442/base64.h
+thread
+/home/pi/Documents/MS_442/thread
+atomic
+-
+opencv2/opencv.hpp
+-
+
+/home/pi/Documents/MS_442/msCam.h
+raspicam/raspicam_cv.h
+-
+opencv2/opencv.hpp
+-
+atomic
+-
+
+/usr/local/include/raspicam/raspicam_cv.h
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
